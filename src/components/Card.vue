@@ -1,11 +1,10 @@
-<template lang="">
+<template>
   <!-- cartas -->
   <section class="container" id="productos">
     <h1 class=" text-center">Nuestros Productos</h1>
     <div class="row">
       <!-- primera -->
       <div class="col-sm-4 col-12 px-5 mb-4">
-
         <div class="card">
           <img src="../assets/img/colaciones.jpg" class="card-img-top" alt="colaciones" />
           <div class="card-body">
@@ -28,11 +27,3 @@
     </div>
   </section>
 </template>
-<script>
-export default {
-  
-}
-</script>
-<style lang="">
-  
-</style>

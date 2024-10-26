@@ -1,3 +1,24 @@
+<script setup>
+  //define propiedades componente
+  defineProps({
+    nombre: {
+      type: String,
+      required: true
+    },
+    descripcion: {
+      type: String,
+      required: true
+    },
+    precio: {
+      type: Number,
+      required: true
+    },
+    cantidad: {
+      type: Number,
+      required: true
+    }
+  })
+</script>
 <template>
   <div class="card">
     <img src="../assets/img/colaciones.jpg" class="card-img-top" alt="colaciones" />
@@ -17,10 +38,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'SingleCard',
-  props: ['nombre', 'descripcion', 'precio', 'cantidad']
-}
-</script>

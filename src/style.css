@@ -6,7 +6,6 @@ body {
 :root {
   --main-bg-color: #e83e8c;
 }
-
 .navbar {
   background: var(--main-bg-color);
 }
@@ -19,7 +18,6 @@ body {
 #productos h1 {
   padding: 60px 0px;
 }
-
 @media (max-width: 768px) {
   #productos h1 {
     font-size: 35px;
@@ -27,13 +25,11 @@ body {
     margin-top: 30px;
   }
 }
-
 h1 {
   font-size: 3.75rem;
   font-weight: 600;
   color: #707070;
 }
-
 #Ahora-aceptamos {
   background: #17a2b8;
 }
@@ -43,7 +39,6 @@ footer {
 footer img {
   height: 6.25rem;
 }
-
 a {
   text-decoration: none;
 }

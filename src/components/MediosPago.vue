@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <section class="container-fluid d-none d-sm-none d-md-block py-5" id="Ahora-aceptamos">
     <div class="container">
       <div class="row">
